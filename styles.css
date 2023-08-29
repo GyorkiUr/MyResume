@@ -1,0 +1,42 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+  }
+
+h2{
+    margin-bottom: 0;
+}
+
+.profilePic{
+    width: 184px;
+    height: 184px;
+    display: block;
+    margin-left: 17.5%;
+}
+.tableForInfo{
+    width: 80%;
+    margin: 30px;
+}
+
+.ul-profile, .ul-rightPartSection{
+    list-style-type: none;
+    margin: 30px;
+    padding-left: 0px;
+}
+
+.ul-profile li{
+    margin-bottom: 20px;
+}
+
+.hr-rightPartSection{      
+    width: 500px;
+    margin-left: 0;
+}
+
+.td-left{
+    background-color: rgb(209, 209, 195);
+    width: 100px;
+}
+
+.td-right{
+    padding-left: 50px;
+}
