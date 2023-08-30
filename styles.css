@@ -32,11 +32,16 @@ h2{
     margin-left: 0;
 }
 
-.td-left{
+/*Flex part*/
+.container {
+    display: flex;
+    gap: 50px;
+}
+.flex-left{
     background-color: rgb(209, 209, 195);
-    width: 100px;
+    width: 300px;
 }
 
-.td-right{
-    padding-left: 50px;
+.flex-right {
+    width: 500px
 }

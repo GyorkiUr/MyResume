@@ -6,46 +6,39 @@
     <title>My Resume</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>   
-    <table class="tableForInfo">
-        <tr>
-            <!--Left side of the page-->
-            <td class="td-left">
+<body>
+    <div class="container">
+        <!--Left side of the page-->
+        <div class="flex-left">
 
-                <img class="profilePic" src="./img/devil_pope.jpg" alt="devil pope">
+            <img class="profilePic" src="./img/devil_pope.jpg" alt="devil pope">
 
                 <h2>PROFIL</h2>
                 <ul class="ul-profile" >
-                    <li>Név: Györki Dávid László</li>
-                    <li>Cím: Bp. XV. Alagi tér 18.</li>
-                    <li>Születési hely: Budapest</li>
-                    <li>Születési idő: 2000-11-13</li>
-                    <li>Nem: Férfi</li>
-                    <li>Állampolgárság: Magyar</li>
-                    <li>Jogosítvány: B kategóriás</li>
+                    <li><b>Név:</b> Györki Dávid László</li>
+                    <li><b>Cím:</b> Bp. XV. Alagi tér 18.</li>
+                    <li><b>Születési hely:</b> Budapest</li>
+                    <li><b>Születési idő:</b> 2000-11-13</li>
+                    <li><b>Nem:</b> Férfi</li>
+                    <li><b>Állampolgárság:</b> Magyar</li>
+                    <li><b>Jogosítvány:</b> B kategóriás</li>
                 </ul>
 
                 <h2>KAPCSOLAT</h2>
                 <ul class="ul-profile" >
-                    <li>TELEFONSZÁM:<br /><a href="tel:+36308282580">+36308282580</a></li>
-                    <li>E-MAIL-CÍM: <a href="mailto:gyorki.david.laszlo@gmail.com">gyorki.david.laszlo@gmail.com</a></li>
+                    <li><b>TELEFONSZÁM:</b><br /><a href="tel:+36308282580">+36308282580</a></li>
+                    <li><b>E-MAIL-CÍM:</b> <a href="mailto:gyorki.david.laszlo@gmail.com">gyorki.david.laszlo@gmail.com</a></li>
                     <li><br /></li>
-                    <li>HOBBIK:<br/>
-                        Programozás: C#, Python<br />
-                        Sport: Küzdősportok (régebben versenyszerűen), MMA, Calisthenics<br />
-                        Nyelvtanulás: Japán<br />
-                        Mikrokontrolleres rendszerek építése programozása: Arduino</li>
-                    <li>Nem: Férfi</li>
-                    <li>Állampolgárság: Magyar</li>
-                    <li>Jogosítvány: B kategóriás</li>
+                    <li><b>HOBBIK:</b><br/><br />
+                        Programozás: C#, Python, Javascript, Java<br /><br />
+                        Sport: Küzdősportok (régebben versenyszerűen), MMA, Calisthenics<br /><br />
+                        Nyelvtanulás: Japán<br /><br />
+                        Mikrokontrolleres rendszerek építése programozása: Arduino, Raspberry Pi</li>
                 </ul>
-            </td>
-
-
-            <!-- Right side of the page-->
-            <td class="td-right">
-
-                <p style="font-size:48pt;">GYÖRKI<br />DÁVID<br />LÁSZLÓ</p>
+        </div>
+        <!-- Right side of the page-->
+        <div class="flex-right">
+            <p style="font-size:48pt;">GYÖRKI<br />DÁVID<br />LÁSZLÓ</p>
 
                 <h2>TANULMÁNYOK</h2>
                 <hr class="hr-rightPartSection">
@@ -86,8 +79,7 @@
                         Python - kezdő<br/>                       
                         </li>           
                 </ul>
-            </td>                               
-        </tr>       
-      </table>
+        </div>
+    </div>
 </body>
 </html>
